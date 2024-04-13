@@ -30,6 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	//添加数据后弹出提示框
+	//git 更新完了
 	gs.addErrorMessage(current+'add a new recode');
 	// Add your code here
 
