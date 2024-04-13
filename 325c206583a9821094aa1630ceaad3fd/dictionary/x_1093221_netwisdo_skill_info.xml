@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0d0d2c29832d821094aa1630ceaad341" label="技能信息表" max_length="40" name="x_1093221_netwisdo_skill_info" type="collection">
-        <element label="技能编号" max_length="40" name="skill_id" type="integer"/>
-    </element>
-</database>
