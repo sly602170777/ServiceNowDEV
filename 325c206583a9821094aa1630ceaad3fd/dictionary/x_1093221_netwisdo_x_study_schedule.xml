@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ad143a183210a1094aa1630ceaad3aa" label="学习进度表" max_length="40" name="x_1093221_netwisdo_x_study_schedule" type="collection">
+        <element label="课程时长" max_length="5" name="course_minites" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="学习计划编号" max_length="40" name="number" type="string"/>
+        <element label="技能编号" max_length="32" name="skill_id" reference="x_1093221_netwisdo_skill_info" type="reference"/>
+        <element default="0" label="学习需要" max_length="1" name="study_needs" type="integer"/>
+        <element choice="1" default="2" label="学习阶段" max_length="1" name="study_phase" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="内定前" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="第2阶段" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="学习计划名称" mandatory="true" max_length="50" name="study_schedule_nm" type="string"/>
+        <element choice="1" default="1" label="学习类型" max_length="1" name="study_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="普通视频" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="上机视频" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="skill_id"/>
+        </index>
+    </element>
+</database>
