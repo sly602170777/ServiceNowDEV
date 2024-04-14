@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1093221_netwisdo.IncidentAverageCalculator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>计算平均成绩</description>
+        <name>IncidentAverageCalculator</name>
+        <script><![CDATA[var IncidentAverageCalculator = Class.create();
+IncidentAverageCalculator.prototype = Object.extendsObject(
+    global.AbstractAjaxProcessor,
+    {
+        calculateAverage: function () {
+            var result = 0;
+            var studentID = this.getParameter('sysparm_studentID').toString();
+            var courseID = this.getParameter('sysparm_courseID').toString();
+
+            var gr = new GlideRecord(
+                'x_1093221_netwisdo_x_student_study_schedule_condition'
+            );
+            gs.info('sysparm_studentID---' + studentID);
+            gs.info('sysparm_courseID---' + courseID);
+
+            gr.addQuery('student_id', studentID);
+            gr.addQuery('study_schedule_id', courseID);
+
+            gr.query();
+            gs.info('gr.getRowCount()---' + gr.getRowCount());
+            if (gr.next()) {
+                var test_1 = Number(gr.getValue('test_1').toString());
+                var test_2 = Number(gr.getValue('test_2').toString());
+				if(test_1 < 60){
+					result = (test_1 + test_2) / 2;
+				}else{
+					result = test_1 ;
+				}
+                
+            }
+            //return JSON.stringify(result);
+            return JSON.stringify(result);
+        },
+        type: 'IncidentAverageCalculator',
+    }
+);
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 13:00:46</sys_created_on>
+        <sys_id>9f3471f983e90a1094aa1630ceaad394</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>IncidentAverageCalculator</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_script_include_9f3471f983e90a1094aa1630ceaad394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 15:09:28</sys_updated_on>
+    </sys_script_include>
+</record_update>
