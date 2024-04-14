@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b93c72583210a1094aa1630ceaad3f4" label="学员课程一览表" max_length="40" name="x_1093221_netwisdo_x_student_course" type="collection">
+        <element label="课程编号" max_length="32" name="course_id" reference="x_1093221_netwisdo_x_study_course" type="reference"/>
+        <element label="学生编号" max_length="32" name="student_id" reference="x_1093221_netwisdo_x_student_info" type="reference"/>
+        <index name="index">
+            <element name="course_id"/>
+        </index>
+        <index name="index2">
+            <element name="student_id"/>
+        </index>
+    </element>
+</database>
