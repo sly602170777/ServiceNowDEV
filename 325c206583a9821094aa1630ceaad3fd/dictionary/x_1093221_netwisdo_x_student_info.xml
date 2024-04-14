@@ -7,10 +7,15 @@
         <element label="汉字名字" max_length="50" name="kanji_firstname" type="string"/>
         <element label="汉字姓氏" max_length="50" name="kanji_lastname" type="string"/>
         <element label="备忘录" max_length="100" name="neno" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="学生编号" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="学生编号" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element label="注意状态" max_length="1" name="pay_attention_flag" type="boolean"/>
-        <element label="原因" mandatory="true" max_length="100" name="reason" type="string"/>
-        <element default="0" label="性别" max_length="1" name="sex" type="integer"/>
+        <element default="暂无" label="原因" mandatory="true" max_length="100" name="reason" type="string"/>
+        <element choice="1" default="0" label="性别" max_length="1" name="sex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="男" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="女" sequence="1" value="1"/>
+            </choice>
+        </element>
         <element default="0" label="学习类别" max_length="1" name="study_category" type="integer"/>
         <element default="0" label="学习条件" max_length="1" name="study_condition" type="integer"/>
         <element label="学习时间" max_length="5" name="study_hours" type="integer"/>
