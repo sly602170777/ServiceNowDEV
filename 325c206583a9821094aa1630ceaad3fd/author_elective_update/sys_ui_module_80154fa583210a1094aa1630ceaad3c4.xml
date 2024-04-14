@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="学员的课程进度条件">cc154fa583210a1094aa1630ceaad3c1</application>
+        <filter/>
+        <name>学员的课程进度条件s</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1093221_netwisdo._user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:13:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80154fa583210a1094aa1630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>学员的课程进度条件s</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_ui_module_80154fa583210a1094aa1630ceaad3c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:13:44</sys_updated_on>
+        <table>x_1093221_netwisdo_x_student_study_schedule_condition</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</application>
+        <file_path/>
+        <instance_id>8ac42f191bc9c65077c7cb7b234bcb2b</instance_id>
+        <instance_name>dev244827</instance_name>
+        <name>sys_ui_module_80154fa583210a1094aa1630ceaad3c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="学员的课程进度条件">cc154fa583210a1094aa1630ceaad3c1</application>
+        <filter/>
+        <name>学员的课程进度条件s</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1093221_netwisdo._user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:13:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80154fa583210a1094aa1630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>学员的课程进度条件s</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_ui_module_80154fa583210a1094aa1630ceaad3c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:13:44</sys_updated_on>
+        <table>x_1093221_netwisdo_x_student_study_schedule_condition</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>1284729183</payload_hash>
+        <record_name>学员的课程进度条件s</record_name>
+        <reverted_from/>
+        <source>178fcfa183610a1094aa1630ceaad3d7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:59:48</sys_created_on>
+        <sys_id>769fc7e183610a1094aa1630ceaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eda1e16040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:59:48</sys_updated_on>
+        <type>Module</type>
+        <update_guid>329fc7e1c6610a10fefceca64d2cf76a</update_guid>
+        <update_guid_history>329fc7e1c6610a10fefceca64d2cf76a:0,168e0b61e5610a101749eb962af6dc65:-142488325,04154fa5c8210a103a6623e03e05b2c5:29281925</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 09:14:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>a32c05db55b6416e8ac52bd9545d5689</sys_id>
+        <sys_metadata>80154fa583210a1094aa1630ceaad3c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>学员的课程进度条件s</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_scope_delete display_value="">d47dbbbb84994388bd46404bf3ff7429</sys_scope_delete>
+        <sys_update_name>sys_ui_module_80154fa583210a1094aa1630ceaad3c4</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_80154fa583210a1094aa1630ceaad3c4">769fc7e183610a1094aa1630ceaad36a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 09:14:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

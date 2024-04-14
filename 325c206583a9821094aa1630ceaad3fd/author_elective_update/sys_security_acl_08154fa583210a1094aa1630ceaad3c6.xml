@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1093221_netwisdo_x_student_study_schedule_condition</description>
+        <name>x_1093221_netwisdo_x_student_study_schedule_condition</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:13:44</sys_created_on>
+        <sys_id>08154fa583210a1094aa1630ceaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1093221_netwisdo_x_student_study_schedule_condition</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_security_acl_08154fa583210a1094aa1630ceaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:13:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</application>
+        <file_path/>
+        <instance_id>8ac42f191bc9c65077c7cb7b234bcb2b</instance_id>
+        <instance_name>dev244827</instance_name>
+        <name>sys_security_acl_08154fa583210a1094aa1630ceaad3c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1093221_netwisdo_x_student_study_schedule_condition</description>
+        <name>x_1093221_netwisdo_x_student_study_schedule_condition</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:13:44</sys_created_on>
+        <sys_id>08154fa583210a1094aa1630ceaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1093221_netwisdo_x_student_study_schedule_condition</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_security_acl_08154fa583210a1094aa1630ceaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:13:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-991658792</payload_hash>
+        <record_name>x_1093221_netwisdo_x_student_study_schedule_condition</record_name>
+        <reverted_from/>
+        <source>178fcfa183610a1094aa1630ceaad3d7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 00:59:46</sys_created_on>
+        <sys_id>669f87e183610a1094aa1630ceaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eda1e0f8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 00:59:46</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>629f87e15c610a10060ac5da4ace494b</update_guid>
+        <update_guid_history>629f87e15c610a10060ac5da4ace494b:0,799e8f61e4610a10de063fe22c5d5598:151452866,c0154fa5e8210a100a9a0e5205e5ffc8:2046799438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-14 09:14:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>a14f67eb2edb4fa49232b93a3f17f2e4</sys_id>
+        <sys_metadata>08154fa583210a1094aa1630ceaad3c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1093221_netwisdo_x_student_study_schedule_condition</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_scope_delete display_value="">d47dbbbb84994388bd46404bf3ff7429</sys_scope_delete>
+        <sys_update_name>sys_security_acl_08154fa583210a1094aa1630ceaad3c6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_08154fa583210a1094aa1630ceaad3c6">669f87e183610a1094aa1630ceaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-14 09:14:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

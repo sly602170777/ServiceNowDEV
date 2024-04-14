@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0d0d2c29832d821094aa1630ceaad341" label="技能信息表" max_length="40" name="x_1093221_netwisdo_skill_info" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="技能编号" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="技能编号" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element label="技能名称" max_length="100" name="skill_nm" type="string"/>
         <element choice="1" default="2" label="学习阶段" max_length="1" name="study_phase" type="choice">
             <choice>

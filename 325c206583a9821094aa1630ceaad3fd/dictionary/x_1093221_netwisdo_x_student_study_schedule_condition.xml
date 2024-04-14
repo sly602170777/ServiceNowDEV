@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="dbf40fa583210a1094aa1630ceaad3a6" label="学员的课程进度条件" max_length="40" name="x_1093221_netwisdo_x_student_study_schedule_condition" type="collection">
-        <element label="答案" max_length="100" name="answer" type="string"/>
+    <element db_object_id="65c0cdb583290a1094aa1630ceaad365" label="学员的课程进度条件" max_length="40" name="x_1093221_netwisdo_x_student_study_schedule_condition" type="collection">
+        <element label="答案" max_length="500" name="answer" type="string"/>
         <element default="0" label="错误确认" max_length="1" name="error_confirm" type="integer"/>
         <element label="最终日期时间" max_length="10" name="final_date_time" type="glide_date"/>
-        <element label="最终成绩" max_length="3" name="final_score" read_only="true" type="float"/>
+        <element label="最终成绩" max_length="5" name="final_score" read_only="true" type="float"/>
         <element default="0" label="指示结束状态" max_length="1" name="instruct_end_flag" type="integer"/>
         <element default="0" label="指示次数" max_length="1" name="instruct_times" type="integer"/>
-        <element label="问题" max_length="100" name="question" type="string"/>
+        <element label="问题" max_length="500" name="question" type="string"/>
         <element label="学生编号" max_length="32" name="student_id" reference="x_1093221_netwisdo_x_student_info" type="reference"/>
         <element choice="1" default="1" label="学习条件" max_length="1" name="study_condition" type="choice">
             <choice>
