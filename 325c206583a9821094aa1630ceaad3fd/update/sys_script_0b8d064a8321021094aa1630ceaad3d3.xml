@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1093221_netwisdo_x_student_study_schedule_condition</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DuplicateDataCheck</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var study_schedule_id = current.study_schedule_id;//学习计划编号
+	var student_id = current.student_id;//学员编号
+	var gr = new GlideRecord('x_1093221_netwisdo_x_student_study_schedule_condition');
+	gr.addQuery('study_schedule_id',study_schedule_id);
+	gr.addQuery('student_id',student_id);
+	gr.addActiveQuery();
+	gr.query();
+
+	if(gr.next() && gr.getUniqueValue() != current.getUniqueValue()){
+		gs.addErrorMessage('选择的内容已重复！'
+							+ '\n' + 
+							'学生编号：'+ gr.getDisplayValue('student_id')  
+							+ '\n' + 
+							'学习计划编号：'+gr.getDisplayValue('study_schedule_id'));
+	}else if(gr.getUniqueValue() == current.getUniqueValue()){
+		gs.addInfoMessage('数据已更新成功');
+	}else{
+		gs.addInfoMessage('数据已添加成功');
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 09:42:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b8d064a8321021094aa1630ceaad3d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DuplicateDataCheck</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_script_0b8d064a8321021094aa1630ceaad3d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 10:02:54</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b8d064a8321021094aa1630ceaad3d3"/>
+</record_update>
