@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c11de9b583e90a1094aa1630ceaad3bb" sys_domain="global" table="x_1093221_netwisdo_x_student_study_schedule_condition" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-14 12:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d1de9b583e90a1094aa1630ceaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1093221_netwisdo_x_student_study_schedule_condition" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">c11de9b583e90a1094aa1630ceaad3bb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">90c201b983290a1094aa1630ceaad344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-14 12:27:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-14 12:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>491de9b583e90a1094aa1630ceaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1093221_netwisdo_x_student_study_schedule_condition" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">c11de9b583e90a1094aa1630ceaad3bb</sys_ui_form>
+            <sys_ui_section caption="答疑区间" display_value="答疑区间" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">4d1de9b583e90a1094aa1630ceaad3b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-14 12:27:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-14 12:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>811de9b583e90a1094aa1630ceaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1093221_netwisdo_x_student_study_schedule_condition" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">c11de9b583e90a1094aa1630ceaad3bb</sys_ui_form>
+            <sys_ui_section caption="成绩区间" display_value="成绩区间" name="x_1093221_netwisdo_x_student_study_schedule_condition" sys_domain="global" view="Default view">051de9b583e90a1094aa1630ceaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-14 12:27:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1093221_netwisdo_x_student_study_schedule_condition</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-14 12:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c11de9b583e90a1094aa1630ceaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1093221_netwisdo_x_student_study_schedule_condition</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c11de9b583e90a1094aa1630ceaad3bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-14 12:27:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
