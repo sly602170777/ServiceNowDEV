@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 13:24:42</sys_created_on>
+        <sys_id>70e2b4b38361021094aa1630ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1093221_netwisdo.student_study_schedule_read</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_security_acl display_value="">e9d2b4b38361021094aa1630ceaad33c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_70e2b4b38361021094aa1630ceaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 13:24:42</sys_updated_on>
+        <sys_user_role display_value="x_1093221_netwisdo.student_study_schedule_read" name="x_1093221_netwisdo.student_study_schedule_read">bf3a203b8321021094aa1630ceaad3ac</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</application>
+        <file_path/>
+        <instance_id>8ac42f191bc9c65077c7cb7b234bcb2b</instance_id>
+        <instance_name>dev244827</instance_name>
+        <name>sys_security_acl_role_70e2b4b38361021094aa1630ceaad3e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 13:24:42</sys_created_on><sys_id>70e2b4b38361021094aa1630ceaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1093221_netwisdo.student_study_schedule_read</sys_name><sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package><sys_policy/><sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope><sys_security_acl display_value="">e9d2b4b38361021094aa1630ceaad33c</sys_security_acl><sys_update_name>sys_security_acl_role_70e2b4b38361021094aa1630ceaad3e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 13:24:42</sys_updated_on><sys_user_role display_value="x_1093221_netwisdo.student_study_schedule_read" name="x_1093221_netwisdo.student_study_schedule_read">bf3a203b8321021094aa1630ceaad3ac</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-779821875</payload_hash>
+        <record_name>.x_1093221_netwisdo.student_study_schedule_read</record_name>
+        <reverted_from/>
+        <source>2d89c9b183690a1094aa1630ceaad36e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 13:24:42</sys_created_on>
+        <sys_id>c1a370f38361021094aa1630ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18efbae377e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 13:24:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>09a370f3af610210cb4ff6553ab0b2ad</update_guid>
+        <update_guid_history>09a370f3af610210cb4ff6553ab0b2ad:-779821875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1093221_netwisdo.student_study_schedule_read">7efa92998371021094aa1630ceaad3a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 12:47:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6066270440994f838865c145d271ba11</sys_id>
+        <sys_metadata>70e2b4b38361021094aa1630ceaad3e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1093221_netwisdo.student_study_schedule_read</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_parent display_value="x_1093221_netwisdo_x_student_study_schedule_condition.test_1">e9d2b4b38361021094aa1630ceaad33c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_scope_delete display_value="">d47dbbbb84994388bd46404bf3ff7429</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_70e2b4b38361021094aa1630ceaad3e8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_70e2b4b38361021094aa1630ceaad3e8">c1a370f38361021094aa1630ceaad3ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 12:47:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,18 +2,18 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-20 15:56:52</sys_created_on>
-        <sys_id>1f5695b783e1021094aa1630ceaad3a9</sys_id>
+        <sys_created_on>2024-04-25 12:48:51</sys_created_on>
+        <sys_id>595b5e998371021094aa1630ceaad3f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>.x_1093221_netwisdo.student_study_schedule_write</sys_name>
+        <sys_name>x_1093221_netwisdo_x_student_study_schedule_condition.test_2.x_1093221_netwisdo.test2_write</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
         <sys_security_acl display_value="x_1093221_netwisdo_x_student_study_schedule_condition.test_2">545659b783e1021094aa1630ceaad33e</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_1f5695b783e1021094aa1630ceaad3a9</sys_update_name>
+        <sys_update_name>sys_security_acl_role_595b5e998371021094aa1630ceaad3f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-20 15:56:52</sys_updated_on>
-        <sys_user_role display_value="x_1093221_netwisdo.student_study_schedule_write" name="x_1093221_netwisdo.student_study_schedule_write">bbec24fb8321021094aa1630ceaad3d6</sys_user_role>
+        <sys_updated_on>2024-04-25 12:48:51</sys_updated_on>
+        <sys_user_role display_value="x_1093221_netwisdo.test2_write" name="x_1093221_netwisdo.test2_write">a53ada598371021094aa1630ceaad350</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
