@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1093221_netwisdo.GlideAjax_demo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>客户端读取API</description>
+        <name>GlideAjax_demo</name>
+        <script><![CDATA[var GlideAjax_demo = Class.create();
+GlideAjax_demo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+getInfo : function(){
+	var sys_id = this.getParameter('sys_id').toString();
+		gs.addInfoMessage('sys_id★★'+sys_id);
+	var gr = new GlideRecord('x_1093221_netwisdo_x_student_study_schedule_condition');
+	gr.addQuery('sys_id', sys_id);
+	gr.addQuery('study_condition', '1');
+	gr.query();
+	gs.addInfoMessage('GlideAjax_demo★★'+gr.getRowCount());
+	if(gr.next()){
+		return true;	
+	}
+	return false;
+},
+    type: 'GlideAjax_demo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 10:15:04</sys_created_on>
+        <sys_id>11d33ced83c6021094aa1630ceaad346</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>GlideAjax_demo</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_script_include_11d33ced83c6021094aa1630ceaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 11:22:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
