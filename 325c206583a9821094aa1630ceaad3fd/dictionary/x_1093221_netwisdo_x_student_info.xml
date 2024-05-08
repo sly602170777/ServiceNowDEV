@@ -26,6 +26,10 @@
                 <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
             </choice>
         </element>
+        <element label="userid" max_length="32" name="userid" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="用户名" max_length="50" name="username" type="string"/>
+        <index name="index">
+            <element name="userid"/>
+        </index>
     </element>
 </database>
