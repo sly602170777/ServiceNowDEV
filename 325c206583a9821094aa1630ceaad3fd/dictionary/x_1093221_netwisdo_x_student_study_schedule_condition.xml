@@ -7,7 +7,7 @@
         <element default="0" label="指示结束状态" max_length="1" name="instruct_end_flag" type="integer"/>
         <element default="0" label="指示次数" max_length="1" name="instruct_times" type="integer"/>
         <element label="问题" max_length="500" name="question" type="string"/>
-        <element label="学生编号" max_length="32" name="student_id" reference="x_1093221_netwisdo_x_student_info" type="reference"/>
+        <element display="true" label="学生编号" max_length="32" name="student_id" reference="x_1093221_netwisdo_x_student_info" type="reference"/>
         <element choice="1" default="1" label="学习条件" max_length="1" name="study_condition" type="choice">
             <choice>
                 <element inactive_on_update="false" label="已学" sequence="1" value="1"/>

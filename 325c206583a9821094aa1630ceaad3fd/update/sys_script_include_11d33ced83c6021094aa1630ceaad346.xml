@@ -11,13 +11,20 @@
 GlideAjax_demo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 getInfo : function(){
 	var sys_id = this.getParameter('sys_id').toString();
-		gs.addInfoMessage('sys_id★★'+sys_id);
+	//var student_id = this.getParameter('student_id');
+	
 	var gr = new GlideRecord('x_1093221_netwisdo_x_student_study_schedule_condition');
 	gr.addQuery('sys_id', sys_id);
+	//gr.addQuery('student_id', student_id);
+	//gr.addEncodedQuery('student_id', student_id);
 	gr.addQuery('study_condition', '1');
 	gr.query();
-	gs.addInfoMessage('GlideAjax_demo★★'+gr.getRowCount());
+	
 	if(gr.next()){
+		//获取每条数据中参照字段的显示值
+		gs.addInfoMessage('student_id->'+gr.getDisplayValue("student_id"));
+		//查看查询结果的数量
+		gs.addInfoMessage('GlideAjax_demo★★'+gr.getRowCount());
 		return true;	
 	}
 	return false;
@@ -28,13 +35,13 @@ getInfo : function(){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 10:15:04</sys_created_on>
         <sys_id>11d33ced83c6021094aa1630ceaad346</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>GlideAjax_demo</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
         <sys_update_name>sys_script_include_11d33ced83c6021094aa1630ceaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 11:22:48</sys_updated_on>
+        <sys_updated_on>2024-05-09 02:36:38</sys_updated_on>
     </sys_script_include>
 </record_update>

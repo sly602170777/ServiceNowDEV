@@ -13,9 +13,13 @@
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
    var ajax = new GlideAjax("GlideAjax_demo");
+	//关联Script Include 中的函数
    ajax.addParam('sysparm_name','getInfo');
+	//关联函数中的参数字段
    ajax.addParam('sys_id',g_form.getUniqueValue());
-debugger;
+	//ajax.addParam('student_id',g_form.getDisplayValue('student_id'));
+	debugger;
+	
    ajax.getXMLAnswer(function(answer){
 	if(answer == 'true'){
 		g_form.setValue('instruct_end_flag',99);
@@ -28,7 +32,7 @@ debugger;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>33f470ed83c6021094aa1630ceaad3b5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>showInfo</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
@@ -36,7 +40,7 @@ debugger;
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
         <sys_update_name>sys_script_client_33f470ed83c6021094aa1630ceaad3b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 11:23:32</sys_updated_on>
+        <sys_updated_on>2024-05-09 02:38:32</sys_updated_on>
         <table>x_1093221_netwisdo_x_student_study_schedule_condition</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
