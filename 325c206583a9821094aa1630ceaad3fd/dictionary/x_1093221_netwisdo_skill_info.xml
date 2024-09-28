@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0d0d2c29832d821094aa1630ceaad341" label="技能信息表" max_length="40" name="x_1093221_netwisdo_skill_info" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="技能编号" max_length="40" name="number" type="string"/>
         <element label="技能名称" max_length="100" name="skill_nm" type="string"/>
+        <element label="New NDS Icon" max_length="40" name="u_nds_icon_2" type="nds_icon"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="技能编号" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_multisource_deny_class" type="reference"/>
         <element choice="1" default="2" label="学习阶段" max_length="1" name="study_phase" type="choice">
             <choice>
+                <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
                 <element inactive_on_update="false" label="内定前" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="第2阶段" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>
