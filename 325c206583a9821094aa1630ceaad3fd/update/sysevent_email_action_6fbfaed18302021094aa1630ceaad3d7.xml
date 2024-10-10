@@ -48,7 +48,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>answer,error_confirm,final_date_time,final_score,instruct_end_flag,test_1,test_2,instruct_times,question,student_id,study_condition,study_schedule_id,sys_created_on,sys_created_by,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count</recipient_fields>
-        <recipient_groups name="netwisdom_student">3b99e0b78321021094aa1630ceaad3d1</recipient_groups>
+        <recipient_groups>3b99e0b78321021094aa1630ceaad3d1</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1093221_netwisdo_x_student_study_schedule_condition">study_condition=2^test_1&lt;60^EQ<item display_value="已测试" endquery="false" field="study_condition" goto="false" newquery="false" operator="=" or="false" value="2"/>
-            <item endquery="false" field="test_1" goto="false" newquery="false" operator="&lt;" or="false" value="60"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <conditions table="x_1093221_netwisdo_x_student_study_schedule_condition">study_condition=2^test_1&lt;60^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>

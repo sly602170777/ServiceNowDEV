@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ad10076830112108d80e590ceaad3bc" label="test_fxPrice" max_length="40" name="x_1093221_netwisdo_test_fxprice" type="collection">
+        <element display="true" label="fx price" max_length="32" name="fx_price" type="currency2"/>
+        <element label="ID" max_length="10" name="id" type="string"/>
+        <index name="index">
+            <element name="fx_price"/>
+        </index>
+    </element>
+</database>

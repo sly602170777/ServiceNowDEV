@@ -4,11 +4,16 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>学员课程已学通知</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>shownotification</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛学员的课程进度条件 Record","reference":"x_1093221_netwisdo_x_student_study_schedule_condition","reference_display":"学员的课程进度条件","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.instruct_end_flag","label":"Trigger - Record Created or Updated➛学员的课程进度条件 Record➛指示结束状态","reference":"","reference_display":"指示结束状态","type":"integer","base_type":"integer","parent_table_name":"x_1093221_netwisdo_x_student_study_schedule_condition","column_name":"instruct_end_flag"}]</label_cache>
         <master_snapshot>115b363d83ca021094aa1630ceaad3d6</master_snapshot>
@@ -23,13 +28,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 14:34:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3d9f6b983ca021094aa1630ceaad368</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ShowNotification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
@@ -37,15 +43,14 @@
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
         <sys_update_name>sys_hub_flow_a3d9f6b983ca021094aa1630ceaad368</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:01:55</sys_updated_on>
+        <sys_updated_on>2024-09-28 05:49:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a3d9f6b983ca021094aa1630ceaad368"/>
     <sys_variable_value action="delete_multiple" query="document_key=a3d9f6b983ca021094aa1630ceaad368"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1093221_netwisdo_x_student_study_schedule_condition">study_condition=1<item display_value="已学" endquery="false" field="study_condition" goto="false" newquery="false" operator="=" or="false" value="1"/>
-        </condition>
+        <condition table="x_1093221_netwisdo_x_student_study_schedule_condition">study_condition=1</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
@@ -243,6 +248,30 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=774bf23d83ca021094aa1630ceaad3eb"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">6af889be40d0121087de8045c806ff88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -326,6 +355,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f4bf23d83ca021094aa1630ceaad3db"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -409,6 +439,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b34bf23d83ca021094aa1630ceaad3d5"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a3d9f6b983ca021094aa1630ceaad368"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3d9f6b983ca021094aa1630ceaad368"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=a3d9f6b983ca021094aa1630ceaad368^sys_idNOT INfb4bf23d83ca021094aa1630ceaad3fb"/>
@@ -417,9 +448,11 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>发送通知</comment>
         <display_text/>
         <flow display_value="ShowNotification">a3d9f6b983ca021094aa1630ceaad368</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>e46680fd-0ce5-4c6d-8d14-22733a1272e9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -503,6 +536,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a3d9f6b983ca021094aa1630ceaad368"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a3d9f6b983ca021094aa1630ceaad368^sys_idNOT IN374bf23d83ca021094aa1630ceaad3f3,734bf23d83ca021094aa1630ceaad3ff"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">3f4bf23d83ca021094aa1630ceaad3f2</block>
         <comment/>
         <connected_to/>
@@ -513,6 +547,7 @@
         <flow display_value="ShowNotification">a3d9f6b983ca021094aa1630ceaad368</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -575,6 +610,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=374bf23d83ca021094aa1630ceaad3f3"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=374bf23d83ca021094aa1630ceaad3f3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">bf4bf23d83ca021094aa1630ceaad3fe</block>
         <comment/>
         <connected_to/>
@@ -585,6 +621,7 @@
         <flow display_value="ShowNotification">a3d9f6b983ca021094aa1630ceaad368</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>3</order>
@@ -622,11 +659,11 @@
         <sys_created_on>2024-05-09 14:40:59</sys_created_on>
         <sys_id>3f4bf23d83ca021094aa1630ceaad3da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d9f6b983ca021094aa1630ceaad368_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 14:40:59</sys_updated_on>
         <url/>
@@ -645,11 +682,11 @@
         <sys_created_on>2024-05-09 14:40:59</sys_created_on>
         <sys_id>b74bf23d83ca021094aa1630ceaad3ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d9f6b983ca021094aa1630ceaad368_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 14:40:59</sys_updated_on>
         <url/>
@@ -668,11 +705,11 @@
         <sys_created_on>2024-05-09 14:40:59</sys_created_on>
         <sys_id>bb4bf23d83ca021094aa1630ceaad3ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a3d9f6b983ca021094aa1630ceaad368_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 14:40:59</sys_updated_on>
         <url/>
@@ -686,11 +723,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>学员课程已学通知</description>
+        <flow_priority/>
         <internal_name>shownotification</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛学员的课程进度条件 Record","reference":"x_1093221_netwisdo_x_student_study_schedule_condition","reference_display":"学员的课程进度条件","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.instruct_end_flag","label":"Trigger - Record Created or Updated➛学员的课程进度条件 Record➛指示结束状态","reference":"","reference_display":"指示结束状态","type":"integer","base_type":"integer","parent_table_name":"x_1093221_netwisdo_x_student_study_schedule_condition","column_name":"instruct_end_flag"}]</label_cache>
         <master>true</master>
@@ -883,6 +923,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=555b763d83ca021094aa1630ceaad32f"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -966,6 +1007,30 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6d5b763d83ca021094aa1630ceaad34b"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">6af889be40d0121087de8045c806ff88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1049,6 +1114,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ad5b763d83ca021094aa1630ceaad343"/>
     <sys_hub_flow_output action="delete_multiple" query="model=115b363d83ca021094aa1630ceaad3d6"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=115b363d83ca021094aa1630ceaad3d6"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=115b363d83ca021094aa1630ceaad3d6^sys_idNOT INe15b763d83ca021094aa1630ceaad36f"/>
@@ -1057,9 +1123,11 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
         <comment>发送通知</comment>
         <display_text/>
         <flow display_value="ShowNotification">115b363d83ca021094aa1630ceaad3d6</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>e46680fd-0ce5-4c6d-8d14-22733a1272e9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1143,6 +1211,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=115b363d83ca021094aa1630ceaad3d6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=115b363d83ca021094aa1630ceaad3d6^sys_idNOT IN295b763d83ca021094aa1630ceaad363,695b763d83ca021094aa1630ceaad367"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">3f4bf23d83ca021094aa1630ceaad3f2</block>
         <comment/>
         <connected_to/>
@@ -1153,6 +1222,7 @@
         <flow display_value="ShowNotification">115b363d83ca021094aa1630ceaad3d6</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1215,6 +1285,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=295b763d83ca021094aa1630ceaad363"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=295b763d83ca021094aa1630ceaad363"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">bf4bf23d83ca021094aa1630ceaad3fe</block>
         <comment/>
         <connected_to/>
@@ -1225,6 +1296,7 @@
         <flow display_value="ShowNotification">115b363d83ca021094aa1630ceaad3d6</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>3</order>
@@ -1262,7 +1334,7 @@
         <sys_created_on>2024-05-09 14:41:06</sys_created_on>
         <sys_id>295b763d83ca021094aa1630ceaad348</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
@@ -1285,7 +1357,7 @@
         <sys_created_on>2024-05-09 14:41:06</sys_created_on>
         <sys_id>655b763d83ca021094aa1630ceaad350</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
@@ -1308,7 +1380,7 @@
         <sys_created_on>2024-05-09 14:41:06</sys_created_on>
         <sys_id>695b763d83ca021094aa1630ceaad340</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>

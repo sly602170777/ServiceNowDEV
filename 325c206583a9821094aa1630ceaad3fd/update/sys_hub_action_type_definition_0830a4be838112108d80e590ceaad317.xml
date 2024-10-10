@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>setfxcurrencyvalue</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>2432e07283c112108d80e590ceaad349</master_snapshot>
+        <name>setFXCurrencyValue</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:05:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0830a4be838112108d80e590ceaad317</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>setFXCurrencyValue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0830a4be838112108d80e590ceaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:43:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0830a4be838112108d80e590ceaad317"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0830a4be838112108d80e590ceaad317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0830a4be838112108d80e590ceaad317</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>4422607283c112108d80e590ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">3312607283c112108d80e590ceaad35c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0830a4be838112108d80e590ceaad317</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>8022607283c112108d80e590ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">7312607283c112108d80e590ceaad37a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317^id=0830a4be838112108d80e590ceaad317"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0830a4be838112108d80e590ceaad317^sys_idNOT INf712acbe838112108d80e590ceaad31f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</action>
+        <cid>8163236d-905a-4472-911e-0a8022cea225</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:13:59</sys_created_on>
+        <sys_id>f712acbe838112108d80e590ceaad31f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:43:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f712acbe838112108d80e590ceaad31f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f712acbe838112108d80e590ceaad31f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>3312607283c112108d80e590ceaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f712acbe838112108d80e590ceaad31f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>f712607283c112108d80e590ceaad359</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:43:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    // Example payload from fd_data&#13;
+    var payload = {&#13;
+        u_amount_fx: "USD;123234"&#13;
+    };&#13;
+&#13;
+    // Create a new GlideRecord instance for the target table&#13;
+    var gr = new GlideRecord('x_1093221_netwisdo_test_fxprice');&#13;
+    // Set the FX Currency field value&#13;
+    gr.setValue('fx_price', payload.u_amount_fx);&#13;
+    //gr.fx_price.setDisplayValue(payload.u_amount_fx);&#13;
+    //gr.setDisplayValue('fx_price','EUR;1000');&#13;
+    //gr.setTextSearchOpts()&#13;
+    //gr.setAbortAction()&#13;
+    gr.setValue('id', "0000");&#13;
+    // Save the record&#13;
+    gr.insert();&#13;
+    // Return a success message&#13;
+    outputs.result = 'FX Currency field value set successfully';&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f712acbe838112108d80e590ceaad31f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f712acbe838112108d80e590ceaad31f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f712acbe838112108d80e590ceaad31f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f712acbe838112108d80e590ceaad31f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f712acbe838112108d80e590ceaad31f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f712acbe838112108d80e590ceaad31f"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0830a4be838112108d80e590ceaad317"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0830a4be838112108d80e590ceaad317^sys_idNOT IN3312607283c112108d80e590ceaad35c,7312607283c112108d80e590ceaad37a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2b035d61-6218-447b-a9b4-a1e997be6743</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</model>
+        <model_id>0830a4be838112108d80e590ceaad317</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>3312607283c112108d80e590ceaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3312607283c112108d80e590ceaad35c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3312607283c112108d80e590ceaad35c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3ae2c6c7-ab6d-4e30-ab77-3773c7ad97cf,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</model>
+        <model_id>0830a4be838112108d80e590ceaad317</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>7312607283c112108d80e590ceaad37a</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:43:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7312607283c112108d80e590ceaad37a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7312607283c112108d80e590ceaad37a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0830a4be838112108d80e590ceaad317"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0830a4be838112108d80e590ceaad317^sys_idNOT IN0022607283c112108d80e590ceaad3b6"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>0022607283c112108d80e590ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0022607283c112108d80e590ceaad3b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0830a4be838112108d80e590ceaad317"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0830a4be838112108d80e590ceaad317"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317^sys_idNOT IN0822607283c112108d80e590ceaad37f,7312607283c112108d80e590ceaad379"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>0822607283c112108d80e590ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:00</sys_created_on>
+        <sys_id>7312607283c112108d80e590ceaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0830a4be838112108d80e590ceaad317"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0830a4be838112108d80e590ceaad317^sys_idNOT INbc32e07283c112108d80e590ceaad3b3"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bc32e07283c112108d80e590ceaad3b3","name":"plan","plan_signature":null}}</plan>
+        <snapshot>6c1930be830512108d80e590ceaad306</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc32e07283c112108d80e590ceaad3b3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 10:54:15</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>setfxcurrencyvalue</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>setFXCurrencyValue</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="setFXCurrencyValue">0830a4be838112108d80e590ceaad317</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2432e07283c112108d80e590ceaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2432e07283c112108d80e590ceaad349"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2432e07283c112108d80e590ceaad349"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2432e07283c112108d80e590ceaad349</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>a032e07283c112108d80e590ceaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">a432e07283c112108d80e590ceaad363</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2432e07283c112108d80e590ceaad349</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>ec32e07283c112108d80e590ceaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2032e07283c112108d80e590ceaad381</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349^id=2432e07283c112108d80e590ceaad349"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=2432e07283c112108d80e590ceaad349^sys_idNOT INa832e07283c112108d80e590ceaad35a"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="setFXCurrencyValue">2432e07283c112108d80e590ceaad349</action>
+        <cid>8163236d-905a-4472-911e-0a8022cea225</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>a832e07283c112108d80e590ceaad35a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 10:54:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a832e07283c112108d80e590ceaad35a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a832e07283c112108d80e590ceaad35a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>6432e07283c112108d80e590ceaad361</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 10:54:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    // Example payload from fd_data&#13;
+    var payload = {&#13;
+        u_amount_fx: "USD;123234"&#13;
+    };&#13;
+&#13;
+    // Create a new GlideRecord instance for the target table&#13;
+    var gr = new GlideRecord('x_1093221_netwisdo_test_fxprice');&#13;
+    // Set the FX Currency field value&#13;
+    gr.setValue('fx_price', payload.u_amount_fx);&#13;
+    //gr.fx_price.setDisplayValue(payload.u_amount_fx);&#13;
+    //gr.setDisplayValue('fx_price','EUR;1000');&#13;
+    gr.setValue('id', "0000");&#13;
+    // Save the record&#13;
+    gr.insert();&#13;
+    // Return a success message&#13;
+    outputs.result = 'FX Currency field value set successfully';&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a832e07283c112108d80e590ceaad35a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>a032e07283c112108d80e590ceaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a832e07283c112108d80e590ceaad35a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a832e07283c112108d80e590ceaad35a"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a832e07283c112108d80e590ceaad35a"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a832e07283c112108d80e590ceaad35a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a832e07283c112108d80e590ceaad35a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a832e07283c112108d80e590ceaad35a"/>
+    <sys_hub_action_input action="delete_multiple" query="model=2432e07283c112108d80e590ceaad349"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2432e07283c112108d80e590ceaad349^sys_idNOT IN2032e07283c112108d80e590ceaad381,a432e07283c112108d80e590ceaad363"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3ae2c6c7-ab6d-4e30-ab77-3773c7ad97cf,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="setFXCurrencyValue">2432e07283c112108d80e590ceaad349</model>
+        <model_id>2432e07283c112108d80e590ceaad349</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>2032e07283c112108d80e590ceaad381</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 10:54:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2032e07283c112108d80e590ceaad381"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2032e07283c112108d80e590ceaad381"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2b035d61-6218-447b-a9b4-a1e997be6743</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="setFXCurrencyValue">2432e07283c112108d80e590ceaad349</model>
+        <model_id>2432e07283c112108d80e590ceaad349</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>a432e07283c112108d80e590ceaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a432e07283c112108d80e590ceaad363"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a432e07283c112108d80e590ceaad363"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2432e07283c112108d80e590ceaad349"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2432e07283c112108d80e590ceaad349^sys_idNOT INac32e07283c112108d80e590ceaad38a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="setFXCurrencyValue">2432e07283c112108d80e590ceaad349</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>ac32e07283c112108d80e590ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ac32e07283c112108d80e590ceaad38a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2432e07283c112108d80e590ceaad349"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2432e07283c112108d80e590ceaad349"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349^sys_idNOT IN2032e07283c112108d80e590ceaad380,a032e07283c112108d80e590ceaad386"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>2032e07283c112108d80e590ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-08 09:14:19</sys_created_on>
+        <sys_id>a032e07283c112108d80e590ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-08 09:14:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2432e07283c112108d80e590ceaad349"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>0830a4be838112108d80e590ceaad317</sys_id>
+        <latest_snapshot>2432e07283c112108d80e590ceaad349</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch7-08-21-2024_08-31-2024_1809.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

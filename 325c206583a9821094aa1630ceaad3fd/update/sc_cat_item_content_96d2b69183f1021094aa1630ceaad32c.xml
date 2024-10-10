@@ -14,6 +14,8 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
+        <dynamic_content_details/>
+        <dynamic_content_type/>
         <entitlement_script/>
         <flow_designer_flow/>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
@@ -24,6 +26,7 @@
         <image/>
         <kb_article display_value="KB99999999">c85cd2519f77230088aebde8132e70c2</kb_article>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -41,6 +44,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -82,12 +86,14 @@
         <url/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_content>
     <sys_translated_text action="delete_multiple" query="documentkey=96d2b69183f1021094aa1630ceaad32c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=96d2b69183f1021094aa1630ceaad32c"/>
     <fx_price action="delete_multiple" query="id=96d2b69183f1021094aa1630ceaad32c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 10:15:06</sys_updated_on>
         <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

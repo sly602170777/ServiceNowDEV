@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
     <sc_catalog action="INSERT_OR_UPDATE">
         <active>true</active>
-        <background_color/>
         <description>学员管理目录</description>
         <desktop_continue_shopping/>
         <desktop_home_page/>

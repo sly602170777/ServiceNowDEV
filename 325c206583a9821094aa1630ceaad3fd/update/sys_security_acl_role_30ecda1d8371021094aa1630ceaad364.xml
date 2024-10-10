@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-25 12:55:41</sys_updated_on>
         <sys_user_role display_value="x_1093221_netwisdo.student_id_write" name="x_1093221_netwisdo.student_id_write">0a291ad58371021094aa1630ceaad3fa</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

@@ -8,6 +8,7 @@
         <container_class_name/>
         <name>seki_update_object1 - Test Page - Container 1</name>
         <order>1</order>
+        <semantic_tag/>
         <sp_page display_value="seki_update_object1">e43480cb8331021094aa1630ceaad390</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>

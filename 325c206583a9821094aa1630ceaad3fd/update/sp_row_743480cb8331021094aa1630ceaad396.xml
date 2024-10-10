@@ -2,6 +2,7 @@
     <sp_row action="INSERT_OR_UPDATE">
         <class_name/>
         <order>1</order>
+        <semantic_tag/>
         <sp_column/>
         <sp_container display_value="seki_update_object1 - Test Page - Container 1">383480cb8331021094aa1630ceaad393</sp_container>
         <sys_class_name>sp_row</sys_class_name>
