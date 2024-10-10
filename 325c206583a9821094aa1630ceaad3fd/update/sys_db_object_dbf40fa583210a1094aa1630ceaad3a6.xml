@@ -10,7 +10,7 @@
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>学员进度条件表</label>
+        <label>学员的课程进度条件</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1093221_netwisdo_x_student_study_schedule_condition</name>
         <number_ref/>

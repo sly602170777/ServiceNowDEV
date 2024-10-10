@@ -4,8 +4,8 @@
         <element label="学习计划名称" mandatory="true" max_length="50" name="study_schedule_nm" type="string"/>
         <element choice="1" default="1" label="学习类型" max_length="1" name="study_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="上机视频" sequence="2" value="2"/>
                 <element inactive_on_update="false" label="普通视频" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="上机视频" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="课程时长" max_length="5" name="course_minites" type="integer"/>

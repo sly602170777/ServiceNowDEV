@@ -4,8 +4,8 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="技能编号" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" default="2" label="学习阶段" max_length="1" name="study_phase" type="choice">
             <choice>
-                <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
                 <element inactive_on_update="false" label="内定前" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="实战阶段" sequence="3" value="3"/>
                 <element inactive_on_update="false" label="第2阶段" sequence="2" value="2"/>
             </choice>
         </element>

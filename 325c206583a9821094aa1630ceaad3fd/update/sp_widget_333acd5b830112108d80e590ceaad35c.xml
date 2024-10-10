@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.showName =function(name){
+		console.log('this name is ' + name);
+		console.log('this c is ' + c);//c->[object Object] 
+		console.log(c.data.table.list) //list 数据可以获取
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>student_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>student_List</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.userName = gs.getUserName().toString();
+	
+	data.table={
+		'list':[]
+	}
+	var grUser = new GlideRecord("sys_user");
+	grUser.addNotNullQuery("phone");
+	grUser.setLimit(5);
+	grUser.query();
+	while(grUser.next()){
+		var obj ={};
+		obj.userID =grUser.getValue('user_name');
+		obj.name =grUser.getValue('first_name');
+		obj.email =grUser.getValue('email');
+		data.table.list.push(obj);
+	}
+	gs.info("data-list:"+JSON.stringify(data.table.list,null,4))
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 01:26:16</sys_created_on>
+        <sys_id>333acd5b830112108d80e590ceaad35c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>student_List</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sp_widget_333acd5b830112108d80e590ceaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 01:59:43</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  hello world,
+  {{c.data.userName}}
+  <table>
+    <tr ng-repeat = "row in c.data.table.list">
+    	<td>{{row.userID}}</td>
+      <td>{{row.name}}</td>
+      <td>{{row.email}}</td>
+      <td>
+      	<button class="btn btn-success" name ='getNameButton' ng-click="showName(row.name)">
+        		Get Name
+        </button>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <!-- JavaScript でオブジェクトを文字列に変換する
+SON.stringify() は、javascript オブジェクトを JSON 文字列に変換するための強力で一般的に使用される関数です。
+ -->
+  <pre>
+ <!--コメント 内容 -->
+ {{c.data.table | json}}
+  </pre>
+</div>]]></template>
+    </sp_widget>
+</record_update>

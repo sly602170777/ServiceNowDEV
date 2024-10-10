@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef8344b6830112108d80e590ceaad37b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>current insert Currency</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
         <sys_update_name>sys_hub_flow_ef8344b6830112108d80e590ceaad37b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 08:42:24</sys_updated_on>
+        <sys_updated_on>2024-10-10 01:16:18</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ef8344b6830112108d80e590ceaad37b"/>
@@ -356,11 +356,11 @@
         <sys_created_on>2024-10-08 07:07:28</sys_created_on>
         <sys_id>6625ccba830112108d80e590ceaad37d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ef8344b6830112108d80e590ceaad37b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-08 07:07:28</sys_updated_on>
         <url/>
@@ -379,11 +379,11 @@
         <sys_created_on>2024-10-08 07:07:28</sys_created_on>
         <sys_id>6a2548f6830112108d80e590ceaad33f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ef8344b6830112108d80e590ceaad37b_request_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-08 07:07:28</sys_updated_on>
         <url/>
@@ -726,7 +726,7 @@
         <sys_created_on>2024-10-08 08:10:43</sys_created_on>
         <sys_id>8da390be834112108d80e590ceaad311</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
@@ -749,7 +749,7 @@
         <sys_created_on>2024-10-08 08:10:43</sys_created_on>
         <sys_id>8da390be834112108d80e590ceaad319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>

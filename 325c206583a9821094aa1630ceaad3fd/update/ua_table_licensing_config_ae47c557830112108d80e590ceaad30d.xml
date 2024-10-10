@@ -4,7 +4,7 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_1093221_netwisdo_x_study_course</name>
+        <name>x_1093221_netwisdo_x_study_schedule</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-28 02:59:33</sys_created_on>
-        <sys_id>d18c675b83f0d2108d80e590ceaad38e</sys_id>
+        <sys_id>ae47c557830112108d80e590ceaad30d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1093221_netwisdo_x_study_course</sys_name>
+        <sys_name>x_1093221_netwisdo_x_study_schedule</sys_name>
         <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
-        <sys_update_name>ua_table_licensing_config_d18c675b83f0d2108d80e590ceaad38e</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_ae47c557830112108d80e590ceaad30d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-28 02:59:33</sys_updated_on>
     </ua_table_licensing_config>
