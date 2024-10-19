@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1093221_netwisdo. MRVSAPI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name> MRVSAPI</name>
+        <script><![CDATA[var  MRVSAPI = Class.create();
+ MRVSAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getMRVSName:function(params){
+		//var na = current.variables.name;
+		var sysid =gs.getUserID();
+		gs.info("MRVSAPI params---"+params);
+		//gs.info("MRVSAPI---"+sysid);
+		return name;
+	},
+	type: ' MRVSAPI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-19 07:20:41</sys_created_on>
+        <sys_id>ffd0345a835112108d80e590ceaad36e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name> MRVSAPI</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_script_include_ffd0345a835112108d80e590ceaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-19 07:35:30</sys_updated_on>
+    </sys_script_include>
+</record_update>
