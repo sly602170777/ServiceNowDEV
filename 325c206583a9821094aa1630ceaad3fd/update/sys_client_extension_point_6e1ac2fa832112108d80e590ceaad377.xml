@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_client_extension_point">
+    <sys_client_extension_point action="INSERT_OR_UPDATE">
+        <api_name>x_1093221_netwisdo.ClientExtensionPointDemo</api_name>
+        <description/>
+        <example><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // 执行您的扩展逻辑
+	gs.info("This is a Client Extension Point");
+})(current, previous);]]></example>
+        <name>ClientExtensionPointDemo</name>
+        <public>true</public>
+        <restrict_scope>false</restrict_scope>
+        <sys_class_name>sys_client_extension_point</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 13:24:08</sys_created_on>
+        <sys_id>6e1ac2fa832112108d80e590ceaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ClientExtensionPointDemo</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_client_extension_point_6e1ac2fa832112108d80e590ceaad377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 13:24:08</sys_updated_on>
+    </sys_client_extension_point>
+</record_update>

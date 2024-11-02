@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>UIMacro_demo</name>
+        <scoped_name>x_1093221_netwisdo_UIMacro_demo</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 14:09:35</sys_created_on>
+        <sys_id>9b6512be832112108d80e590ceaad3b0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>UIMacro_demo</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_ui_macro_9b6512be832112108d80e590ceaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 15:12:51</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide">
+<!-- <g:ui_example name="Fred Luddy" test_attribute="I am an attribute" laptop_type="ThinkPad" ></g:ui_example> -->
+    
+	<div>name jvar: ${jvar_name}</div>
+    <div>test_attribute jvar: ${jvar_test_attribute}</div>
+    <div>laptop_type jvar: ${jvar_laptop_type}</div>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
