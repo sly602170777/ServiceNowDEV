@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1093221_netwisdo_UIpagebase.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate object="true" var="jvar_gr" jelly="true">
+		var casegr = new GlideRecord("sn_imt_tracing_case_task");
+		casegr.addQuery("exposure_case",current.sys_id);
+		casegr.query();
+		var taskList = "";
+		while(casegr.next()){
+			taskList=taskList+casegr.sys_id+",";
+		}
+		gs.info(taskList);
+		var gr = new GlideRecord("asmt_assessment_instance");
+		gr.addQuery('trigger_id','IN',taskList);
+		gr.query();
+		gs.info(gr.getRowCount());
+		gr;
+	</g2:evaluate>
+
+	<!-- Snippet 4 -->
+	<g:evaluate>
+		var grQuestion = new GlideRecord('u_mn_feedback_category');
+		grQuestion.orderBy('sys_created_on');
+		grQuestion.query();
+		var questions = [];
+		var rowCount = grQuestion.getRowCount();
+
+		while (grQuestion.next()) {
+			questions.push({
+				'id': grQuestion.u_name+'',
+				'question': grQuestion.u_question+''
+			});
+		}
+		
+	</g:evaluate>
+
+
+	<j:forEach var="jvar_question" items="${questions}">
+		<div class="form-group">
+			<label>${jvar_question.question}</label>
+			<input class="form-control" id="${jvar_question.id}" name="${jvar_question.id}" />
+		</div>
+	</j:forEach>
+
+	<g:evaluate>
+		var words=['Hello','world','bye'];
+		var jvar_something = 'true';
+	</g:evaluate>
+	<!-- for循环 -->
+	<j:forEach var="jvar_word" items="${words}">
+    	<p> ${jvar_word} </p>
+	</j:forEach>
+	<j:if test="${jvar_something}">
+		<p>1...do something ${jvar_something}...</p>
+	</j:if>
+	<j:if test="${!jvar_something}">
+		<p>2...do something ${!jvar_something}...</p>
+	</j:if>
+	<g:breakpoint var="jvar_something" />
+
+<!-- 参照字段显示 -->
+	<g:ui_reference name="QUERY:active=true^roles=itil" id="assigned_to" table="sys_user" />
+
+
+	GlideProperties.set ( 'glide.ui.template.trace' , true );
+	<table id="customers">
+		<thead>
+			<tr>
+			  <th scope="col">Survey</th>
+			  <th scope="col">Answer</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--jvar_gr is a glideRecord. So, we can use GlideRecord funtions -->
+			<!--Is important to highlight that jelly version one <g:evaluate> and Jelly Extended version <g2:evaluate> have different scopes. 
+			So, you only have access to variable defined in his specific Jelly version. -->
+			<j2:while test="$[jvar_gr.next()]">
+			<!--while cicle, test is the condition -->
+				<!--jvar_gr is a glideRecord. So, we can use GlideRecord funtions -->
+				<j2:set var="jvar_metric" value="$[jvar_gr.getValue('metric_type')]"/>
+				<!--Attribute jelly="true" allows access to Jelly object. This object have jelly variables. This feature is only in <g2>-->
+				<g2:evaluate object="true" var="jvar_name" jelly="true">
+					var metricgr = new GlideRecord("asmt_metric_type");
+					<!-- //gs.info(jelly.jvar_metric); -->
+					metricgr.get(jelly.jvar_metric);
+					<!-- //gs.info(metricgr.name); -->
+					var name = metricgr.name;
+					name;
+				</g2:evaluate>
+					<tr>
+						<td>$[jvar_name]</td>
+						<td>
+							<input type="button" onclick="showSurvey('$[jvar_gr.getValue('sys_id')]','$[jvar_gr.getValue('metric_type')]');" value="view"></input>
+							<!--${} -> allow access to <g> jelly variables and $[] -> alllows access to Extended version -->
+						</td>
+					</tr>
+			</j2:while>	
+		</tbody>
+	</table>
+	<script language="javascript">
+		function showSurvey(id,type){
+			var urlAns = 'assessment_take2.do?sysparm_assessable_sysid='+id+'$[AMP]sysparm_assessable_type='+type+'$[AMP]sysparm_reader_view=true';
+				// GlideOverlay is a popup window that contatins a UI page. In this example we use assessment_take2 to show survey answers. 
+				var d = new GlideOverlay({
+				title: "User's Response",
+				iframe: urlAns,
+				width:'80%',
+				height: '100%',
+				onAfterLoad: function() {
+					var iframe = d.getIFrameElement();
+					setTimeout(function(){
+						iframe.height = parseInt(iframe.height)+1;
+					},0);
+				}
+			});
+			d.render();
+		} 
+	</script>
+	<style>
+		#customers {
+			font-family: Arial, Helvetica, sans-serif;
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#customers td, #customers th {
+			border: 1px solid #ddd;
+			padding: 8px;
+		}
+
+		#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+		#customers tr:hover {background-color: #ddd;}
+
+		#customers th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #04AA6D;
+			color: white;
+		}
+</style>
+</j:jelly>]]></html>
+        <name>UIpagebase</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-09 12:21:37</sys_created_on>
+        <sys_id>a63f7d01833112108d80e590ceaad33b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>UIpagebase</sys_name>
+        <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+        <sys_update_name>sys_ui_page_a63f7d01833112108d80e590ceaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-09 13:01:42</sys_updated_on>
+    </sys_ui_page>
+</record_update>
