@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6aa0c32183210a1094aa1630ceaad381" label="课程信息表" max_length="40" name="x_1093221_netwisdo_x_study_course" type="collection">
+        <element label="课程名" mandatory="true" max_length="100" name="course_nm" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="课程编号" max_length="40" name="number" type="string"/>
+    </element>
+</database>

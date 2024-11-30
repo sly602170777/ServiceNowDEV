@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="instruct_end_flag" label="指示结束状态" language="en" table="x_1093221_netwisdo_x_student_study_schedule_condition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>instruct_end_flag</element>
+            <help/>
+            <hint/>
+            <label>指示结束状态</label>
+            <language>en</language>
+            <name>x_1093221_netwisdo_x_student_study_schedule_condition</name>
+            <plural>指示结束状态s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-14 00:19:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>指示结束状态</sys_name>
+            <sys_package display_value="Netwisdom_Student management system" source="x_1093221_netwisdo">325c206583a9821094aa1630ceaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netwisdom_Student management system">325c206583a9821094aa1630ceaad3fd</sys_scope>
+            <sys_update_name>sys_documentation_x_1093221_netwisdo_x_student_study_schedule_condition_instruct_end_flag_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-14 00:19:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

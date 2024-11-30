@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="25540f6583210a1094aa1630ceaad311" label="课程技能表" max_length="40" name="x_1093221_netwisdo_x_course_skil" type="collection">
+        <element label="课程编号" max_length="32" name="course_id" reference="x_1093221_netwisdo_x_study_course" type="reference"/>
+        <element label="技能编号" max_length="32" name="skill_id" reference="x_1093221_netwisdo_skill_info" type="reference"/>
+        <index name="index">
+            <element name="course_id"/>
+        </index>
+        <index name="index2">
+            <element name="skill_id"/>
+        </index>
+    </element>
+</database>
